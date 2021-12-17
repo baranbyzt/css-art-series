@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+body {
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
+    margin:0;
+    padding:0;
+    user-select: none;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.item {
+ display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition-duration: 0.5s;
+  
+}
+
+i {
+    font-size: 24px;
+}
+
+.facebook:hover {
+    transition-duration: 0.5s;
+background-color: #3b5998 ;
+}
+.twitter:hover {
+    transition-duration: 0.5s;
+background-color: rgb(29, 155, 240);
+}
+.instagram:hover {
+    transition-duration: 0.5s;
+background-color: #3f729b;
+}
+.github:hover {
+    transition-duration: 0.5s;
+background-color: #7a7878;
+}
+.youtube:hover {
+    transition-duration: 0.5s;
+background-color: #c4302b;
+}
+
+.tooltip {
+border-radius: 20px;
+display: none;
+color: #fff;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+
+
+
