@@ -1,0 +1,1 @@
+this project is the sixth member of the css-art series. In this project, we developed a project using scss. using expressions like @mixin @inculude @importand @extend here, it is aimed to better understand the logic of sass.
