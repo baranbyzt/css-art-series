@@ -1,0 +1,99 @@
+
+@import '_varieable';
+
+*{
+user-select: none;
+}
+
+html,body{
+    height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.wrapper {
+    
+    @include width_height(auto,auto );
+    @include bg_color(null);
+    
+p{
+text-align: center;
+font-size: 30px;
+color: cadetblue;
+}
+
+    .item{
+        margin: 10px;
+        border-radius: 15px;
+        border: 2px rgb(71, 107, 141) solid;
+        width: 150px;
+        height: 150px;
+        @extend html;
+        position: relative;
+        
+#main_i{
+    position: absolute;
+    color: rgb(42, 124, 172);
+    font-size: 60px;
+    top: 30px;
+}
+p {
+   bottom: 0px;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(70, 116, 117); 
+}
+.ticket {
+    transition-duration:0.1s;
+    visibility: hidden;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border-radius: 50%;
+    @include width_height(20px,20px );
+    border: blue 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    @include bg_color(#fff);
+}
+#main_check {
+    visibility: hidden;
+    position: absolute;
+   font-size: 22px;
+  color: blue;
+}
+    }
+
+    .item:hover{
+        transition-duration: 0.4s;
+        @include bg_color(rgb(243, 243, 241));
+        border: 2px rgb(163, 0, 238) solid;
+        box-shadow:  rgb(163, 0, 238) 0px 5px 15px;
+        
+.ticket {
+    visibility: visible;
+    border: blue 1px solid;
+}
+#main_check {
+    visibility: hidden;
+    position: absolute;
+   font-size: 22px;
+  color: blue;
+}
+    }
+
+
+
+    #wrapper_item {
+        display: block;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

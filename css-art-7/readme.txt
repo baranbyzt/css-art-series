@@ -1,0 +1,2 @@
+this project is the 7th member of the css-art series. Here, using sass-scss technologies, functions such as @import, @export, @inculude, @mixed and
+We made a nice checker project using js-html technologies. In this project, you can examine it to learn about js DOM and scss.

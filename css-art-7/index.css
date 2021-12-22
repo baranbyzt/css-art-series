@@ -1,0 +1,122 @@
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+html, .wrapper .item, body {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrapper {
+  width: auto;
+  height: auto;
+}
+
+.wrapper p {
+  text-align: center;
+  font-size: 30px;
+  color: cadetblue;
+}
+
+.wrapper .item {
+  margin: 10px;
+  border-radius: 15px;
+  border: 2px #476b8d solid;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.wrapper .item #main_i {
+  position: absolute;
+  color: #2a7cac;
+  font-size: 60px;
+  top: 30px;
+}
+
+.wrapper .item p {
+  bottom: 0px;
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  color: #467475;
+}
+
+.wrapper .item .ticket {
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+  visibility: hidden;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: blue 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.wrapper .item #main_check {
+  visibility: hidden;
+  position: absolute;
+  font-size: 22px;
+  color: blue;
+}
+
+.wrapper .item:hover {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  background-color: #f3f3f1;
+  border: 2px #a300ee solid;
+  -webkit-box-shadow: #a300ee 0px 5px 15px;
+          box-shadow: #a300ee 0px 5px 15px;
+}
+
+.wrapper .item:hover .ticket {
+  visibility: visible;
+  border: blue 1px solid;
+}
+
+.wrapper .item:hover #main_check {
+  visibility: hidden;
+  position: absolute;
+  font-size: 22px;
+  color: blue;
+}
+
+.wrapper #wrapper_item {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=index.css.map */

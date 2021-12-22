@@ -1,0 +1,11 @@
+
+@mixin width_height($width,$height){
+    width: $width;
+    height: $height;
+}
+@mixin bg_color($bg_color){
+    background-color: $bg_color;
+}
+
+
+ 
