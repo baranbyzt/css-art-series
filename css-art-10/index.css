@@ -1,0 +1,87 @@
+.hr_main {
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list_1 {
+  margin-top: 40px;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Oswald', sans-serif;
+}
+
+.list_2 {
+  font-size: 30px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+html .item, body .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+html .inner_item, body .inner_item {
+  width: 280px;
+  height: 280px;
+  background-color: black;
+  border-radius: 100%;
+  margin: 5px;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+html .content, body .content {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background-color: #1e201c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+html .content p, body .content p {
+  z-index: 100000;
+  color: white;
+  font-size: 15px;
+}
+
+html .main_img, body .main_img {
+  width: 300px;
+  height: 300px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+html img:hover, body img:hover {
+  width: 350px;
+  height: 350px;
+}
+/*# sourceMappingURL=index.css.map */
