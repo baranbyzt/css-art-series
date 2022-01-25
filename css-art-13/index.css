@@ -1,0 +1,42 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(170, 176, 201);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition-duration: 2s;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    background: white;
+    height: 80px;
+width: 460px;
+border-radius: 10px;
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+position: relative;
+}
+i{
+    font-size: 30px;
+}
+img{ 
+    border: black 2px solid;
+border-radius: 100%;
+width: 30px;
+height: 30px;
+}
+
+.item:hover {
+cursor: pointer;
+    }
+    .item {
+        z-index: 11;
+    }
